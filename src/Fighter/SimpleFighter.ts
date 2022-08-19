@@ -4,7 +4,7 @@ interface SimpleFighter {
   lifePoints: number;
   strength: number;
 
-  attack(enemy: Fighter): void;
+  attack(enemy: Fighter | SimpleFighter): void;
   receiveDamage(attackPoints: number): number;
 }
 
