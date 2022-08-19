@@ -1,7 +1,7 @@
 import Character from '../Character';
 import Fighter from '../Fighter';
 import Battle from './Battle';
-import fightToDeath from './helpers/fightToDeath';
+import fightToDeath from './helpers/pvpFight';
 
 class PVP extends Battle {
   private _defender: Character | Fighter;
